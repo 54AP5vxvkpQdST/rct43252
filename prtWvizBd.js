@@ -10,13 +10,13 @@ class SePrtWvizBd extends React.Component {
 
   render() {
     if (this.state.liked) {
-      return '11';
+      return 'eleven';
     }
 
     return e(
       'button',
       { onClick: () => this.setState({ liked: true }) },
-      '1+1'
+      'one plus one'
     );
   }
 }
